@@ -1,5 +1,5 @@
 # esp-idf-opencv-demo
-OpenCV example for ESP-IDF
+OpenCV example for ESP-IDF.   
 OpenCV library usable with ESP-IDF is available [here](https://github.com/espressif/esp-opencv-component).   
 You can use it as a component in your project.   
 

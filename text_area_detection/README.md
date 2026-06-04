@@ -3,7 +3,7 @@ The example use opencv library to detect text areas on camera image.
 This project will use [this](https://github.com/espressif/esp-opencv-component/tree/master) component.   
 I based it on [this](https://github.com/espressif/esp-opencv-component/tree/master/examples/text_area_detection).   
 
-<img width="519" height="817" alt="Image" src="https://github.com/user-attachments/assets/4569d6c9-23ee-4c21-840a-e0dd69928aeb" />
+<img width="510" height="819" alt="Image" src="https://github.com/user-attachments/assets/45a9c22a-add1-4388-aa19-0d5c1caa86de" />
 
 # Hardware requirements
 ESP32 development board with OV2640 camera.   
@@ -71,6 +71,9 @@ When the Enter key is pressed, the camera will capture an image.
 Press the Enter key at this point.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/ecd987a1-c9f6-4a69-912b-6c99f5cf0c68" />
 
+The `images` folder contains test image files.   
+I used [this](https://github.com/nopnop2002/esp-idf-opencv-demo/blob/main/text_area_detection/images/opencv.jpg) image file for testing.   
+
 OpenCV then searches for text within the image.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/da5a1878-c7af-4710-913e-9f6692cdab11" />
 
@@ -79,5 +82,5 @@ ESP32 works as a web server.
 You can view the pictures taken using the built-in WEB server.   
 Enter the ESP32's IP address and port number in the address bar of your browser.   
 You can connect using mDNS hostname instead of IP address.   
-<img width="519" height="817" alt="Image" src="https://github.com/user-attachments/assets/4569d6c9-23ee-4c21-840a-e0dd69928aeb" />
-<img width="508" height="814" alt="Image" src="https://github.com/user-attachments/assets/628d9624-ae8e-47c9-b751-1459b9cc1b85" />
+<img width="510" height="819" alt="Image" src="https://github.com/user-attachments/assets/45a9c22a-add1-4388-aa19-0d5c1caa86de" />
+<img width="510" height="819" alt="Image" src="https://github.com/user-attachments/assets/3b4f3bfc-67d8-40a3-b768-fc762291c980" />

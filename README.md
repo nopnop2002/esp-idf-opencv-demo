@@ -16,6 +16,10 @@ The example use opencv library to detect line on camera image.
 The example use opencv library to detect corner on camera image.   
 <img width="506" height="821" alt="Image" src="https://github.com/user-attachments/assets/864fe6b0-ad33-4413-a2d6-d03402abb529" />
 
+## shape_detection
+The example use opencv library to detect shapes on camera image.   
+<img width="510" height="819" alt="Image" src="https://github.com/user-attachments/assets/083d6609-41db-4978-90cb-4b67e3be7a31" />
+
 ## people_detection
 The example use opencv library to detect people image on camera image.   
 <img width="520" height="817" alt="Image" src="https://github.com/user-attachments/assets/85c8303e-fc28-4b80-9d97-9e1b42b3d86b" />

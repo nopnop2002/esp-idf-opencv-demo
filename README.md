@@ -6,7 +6,7 @@ You can use it as a component in your project.
 
 ## text_area_detection
 The example use opencv library to detect text areas on camera image.   
-<img width="520" height="812" alt="Image" src="https://github.com/user-attachments/assets/a10e2385-4381-40cc-8abd-8b84e8104cc9" />
+<img width="510" height="819" alt="Image" src="https://github.com/user-attachments/assets/45a9c22a-add1-4388-aa19-0d5c1caa86de" />
 
 ## line_detection
 The example use opencv library to detect line on camera image.   

@@ -71,6 +71,9 @@ When the Enter key is pressed, the camera will capture an image.
 Press the Enter key at this point.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/52e8d926-e87b-4176-b41d-d6f0b955985b" />
 
+The `images` folder contains test image files.   
+I used [this](https://github.com/nopnop2002/esp-idf-opencv-demo/blob/main/line_detection/images/opencv.jpg) image file for testing.   
+
 OpenCV then searches for text within the image.   
 <img width="659" height="486" alt="Image" src="https://github.com/user-attachments/assets/2d494bd2-8c20-402d-9157-4773922daa37" />
 

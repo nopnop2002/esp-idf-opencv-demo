@@ -2,7 +2,7 @@
 OpenCV example for ESP-IDF.   
 OpenCV library usable with ESP-IDF is available [here](https://github.com/espressif/esp-opencv-component).   
 You can use it as a component in your project.   
-
+I used OpenCV versions 4.10.0~3.   
 
 ## text_area_detection
 The example use opencv library to detect text areas on camera image.   

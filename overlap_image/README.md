@@ -86,7 +86,7 @@ The image format for overlapping images must also be RGB565.
 You can create an RGB565 image from a PNG file using ffmpeg.   
 The RGB565 image format does not contain image size information.   
 The application calculates the image size from the file size.   
-Image Width = Image Height = SQRT(File Size)   
+File Size = Image Width * Image Height * 2   
 The overlapping images must be square.   
 ```
 convert -resize 64x64! opencv_logo_icon.png image.png

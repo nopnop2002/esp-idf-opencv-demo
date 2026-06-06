@@ -76,9 +76,9 @@ ESP32 works as a web server.
 You can view the pictures taken using the built-in WEB server.   
 Enter the ESP32's IP address and port number in the address bar of your browser.   
 You can connect using mDNS hostname instead of IP address.   
-<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/cde3d070-cc00-47dd-a9a1-0ce56414f54a" />
-<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/77f43989-2d55-4068-8277-ef9b68b89e39" />
-<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/97133a3c-ffc2-451f-ad81-13cd954eec42" />
+<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/cde3d070-cc00-47dd-a9a1-0ce56414f54a" />   
+<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/77f43989-2d55-4068-8277-ef9b68b89e39" />   
+<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/97133a3c-ffc2-451f-ad81-13cd954eec42" />   
 
 # Creating overlapping images
 The image format captured by the camera is RGB565.   

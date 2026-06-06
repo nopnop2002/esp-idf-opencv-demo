@@ -88,6 +88,9 @@ The RGB565 image format does not contain image size information.
 The application calculates the image size from the file size.   
 File Size = Image Width * Image Height * 2   
 The overlapping images must be square.   
+The `images` folder contains test image files.   
+I used [this](https://github.com/nopnop2002/esp-idf-opencv-demo/blob/main/overlap_image/images/opencv_logo_icon.png) image file for testing.   
+
 ```
 convert -resize 64x64! opencv_logo_icon.png image.png
 ffmpeg -vcodec png -i image.png -vcodec rawvideo -f rawvideo -pix_fmt rgb565 image.raw

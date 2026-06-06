@@ -79,4 +79,4 @@ You can connect using mDNS hostname instead of IP address.
 <img width="566" height="828" alt="Image" src="https://github.com/user-attachments/assets/ebf46889-ce9b-4010-a6a8-f024204b2c79" />
 <img width="566" height="828" alt="Image" src="https://github.com/user-attachments/assets/dde027d6-6329-4f7a-a2d8-515ef1c03620" />
 <img width="566" height="828" alt="Image" src="https://github.com/user-attachments/assets/c320e380-da33-4c5d-8952-a042fc3be5df" />
-<img width="960" height="930" alt="Image" src="https://github.com/user-attachments/assets/13db6ca7-dca2-49e7-91eb-76464c88fb4f" />
+<img width="566" height="830" alt="Image" src="https://github.com/user-attachments/assets/1f15c519-594a-470e-87f2-030c4f3c9b1e" />

@@ -28,3 +28,8 @@ The example use opencv library to detect people image on camera image.
 The example use opencv library to insert text on camera image.   
 <img width="566" height="828" alt="Image" src="https://github.com/user-attachments/assets/ebf46889-ce9b-4010-a6a8-f024204b2c79" />
 
+## overlap_image
+The example use opencv library to overlap one image onto a camera image.   
+<img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/97133a3c-ffc2-451f-ad81-13cd954eec42" />
+
+

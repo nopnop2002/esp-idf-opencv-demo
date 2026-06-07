@@ -33,3 +33,10 @@ The example use opencv library to overlap one image onto a camera image.
 <img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/97133a3c-ffc2-451f-ad81-13cd954eec42" />
 
 
+# Limitations
+The following limitations exist for OpenCV in ESP-IDF:
+- Insufficient Flash Memory Capacity   
+	Some functions will cause a Flash memory overflow.   
+
+- Insufficient SRAM Capacity   
+	Some functions will cause an SRAM overflow.   

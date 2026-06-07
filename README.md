@@ -35,7 +35,7 @@ The example use opencv library to overlap one image onto a camera image.
 
 # Limitations
 The following limitations exist for OpenCV in ESP-IDF:
-- `dram0_0_seg' overflow   
+- dram0_0_seg overflow   
 	Some functions such as `cv::getRotationMatrix2D` will cause an overflow of `dram0_0_seg`.   
 	As a result, the project cannot be built.
 

@@ -37,6 +37,8 @@ The example use opencv library to overlap one image onto a camera image.
 The following limitations exist for OpenCV in ESP-IDF:
 - Insufficient Flash Memory Capacity   
 	Some functions will cause a Flash memory overflow.   
+	As a result, the project cannot be built.
 
 - Insufficient SRAM Capacity   
 	Some functions will cause an SRAM overflow.   
+	This causes a panic when the project is run.

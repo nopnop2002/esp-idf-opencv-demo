@@ -32,6 +32,10 @@ The example use opencv library to insert text on camera image.
 The example use opencv library to crop an image from a camera image.   
 <img width="507" height="818" alt="Image" src="https://github.com/user-attachments/assets/f50e3725-7171-45fe-9fc1-20fefdbf4824" />
 
+## swap_image
+The example use opencv library to swap images on a camera image.   
+<img width="507" height="818" alt="Image" src="https://github.com/user-attachments/assets/fe3eba0e-5bd6-4f21-85fe-108761991ac2" />
+
 ## overlap_image
 The example use opencv library to overlap one image onto a camera image.   
 <img width="503" height="819" alt="Image" src="https://github.com/user-attachments/assets/97133a3c-ffc2-451f-ad81-13cd954eec42" />

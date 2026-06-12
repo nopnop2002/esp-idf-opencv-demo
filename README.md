@@ -24,6 +24,11 @@ The example use opencv library to detect shapes on camera image.
 The example use opencv library to detect people image on camera image.   
 <img width="520" height="817" alt="Image" src="https://github.com/user-attachments/assets/85c8303e-fc28-4b80-9d97-9e1b42b3d86b" />
 
+## filtering_function
+The OpenCV library has numerous filtering functions.   
+This project will showcase them.   
+<img width="506" height="814" alt="Image" src="https://github.com/user-attachments/assets/3b0009e7-5ed4-423d-924f-4baa7b02d6f1" />
+
 ## insert_text
 The example use opencv library to insert text on camera image.   
 <img width="566" height="828" alt="Image" src="https://github.com/user-attachments/assets/ebf46889-ce9b-4010-a6a8-f024204b2c79" />

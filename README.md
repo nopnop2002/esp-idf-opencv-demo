@@ -15,8 +15,26 @@ From the left:
 ![es32-camera](https://github.com/nopnop2002/esp-idf-websocket-camera/assets/6020549/38dbef9a-ed85-4df2-8d22-499b2b497278)
 
 # Software requirements
-ESP-IDF V5.5.   
-___It cannot be built with ESP-IDF V6.0.___   
+ESP-IDF V5.5 or higher.   
+
+___Note for ESP-IDF V6___   
+Since ESP-IDF v6.0, the default LibC used in builds has switched to the PicolibC implementation.   
+You can build using ESP-IDF V6 by following the steps below.   
+```
+$ cd corner_detection
+$ idf.py set-target esp32
+
+-- Configuring incomplete, errors occurred!
+HINT: newlib component has been renamed to esp_libc. Any `REQUIRES newlib` can simply be deleted as esp_libc is REQUIRED by default.
+cmake failed with exit code 1, output of the command is in the /home/nop/rtos/esp-idf-opencv-demo/build/log/idf_py_stderr_output_3125 and /home/nop/rtos/esp-idf-opencv-demo/build/log/idf_py_stdout_output_3125
+
+$ vi managed_components/espressif__opencv/CMakeLists.txt
+
+#set(deps esp_rom vfs lwip pthread newlib)
+set(deps esp_rom vfs lwip pthread)
+
+$ idf.py menuconfig
+```
 
 # Installation
 Please refer to the README in the project folder.

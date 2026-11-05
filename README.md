@@ -22,7 +22,7 @@ Since ESP-IDF v6.0, the default LibC used in builds has switched to the PicolibC
 You can build using ESP-IDF V6 by following the steps below.   
 ```
 $ cd corner_detection
-$ idf.py set-target esp32
+$ idf.py set-target {esp32/esp32s3}
 
 -- Configuring incomplete, errors occurred!
 HINT: newlib component has been renamed to esp_libc. Any `REQUIRES newlib` can simply be deleted as esp_libc is REQUIRED by default.

@@ -28,6 +28,7 @@
 #include "esp_vfs.h"
 #include "nvs_flash.h"
 #include "esp_spiffs.h"
+#include "driver/gpio.h"
 
 #include "esp_camera.h"
 #include "camera_pin.h"

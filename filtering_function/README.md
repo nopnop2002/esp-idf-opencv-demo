@@ -6,21 +6,6 @@ This project will use [this](https://github.com/espressif/esp-opencv-component/t
 
 <img width="506" height="814" alt="Image" src="https://github.com/user-attachments/assets/3b0009e7-5ed4-423d-924f-4baa7b02d6f1" />
 
-# Hardware requirements
-ESP32 development board with OV2640 camera.   
-If you use other camera, edit sdkconfig.default.   
-From the left:   
-- Aithinker ESP32-CAM   
-- Freenove ESP32-WROVER CAM   
-- UICPAL ESPS3 CAM   
-- Freenove ESP32S3-WROVER CAM (Clone)   
-
-![es32-camera](https://github.com/nopnop2002/esp-idf-websocket-camera/assets/6020549/38dbef9a-ed85-4df2-8d22-499b2b497278)
-
-# Software requirements
-ESP-IDF V5.5.   
-___It cannot be built with ESP-IDF V6.0.___   
-
 # Installation
 For AiThinker ESP32-CAM, you need to use a USB-TTL converter and connect GPIO0 to GND.   
 

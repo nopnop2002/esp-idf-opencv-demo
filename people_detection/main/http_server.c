@@ -85,9 +85,9 @@ esp_err_t Image2Base64(char * filename, size_t fsize, unsigned char * base64_buf
 		fclose(fp);
 	}
 
-	size_t encord_len;
-	esp_err_t ret = mbedtls_base64_encode(base64_buffer, base64_buffer_len, &encord_len, image_buffer, fsize);
-	ESP_LOGI(TAG, "mbedtls_base64_encode=%d encord_len=%d", ret, encord_len);
+	size_t encode_len;
+	esp_err_t ret = mbedtls_base64_encode(base64_buffer, base64_buffer_len, &encode_len, image_buffer, fsize);
+	ESP_LOGI(TAG, "mbedtls_base64_encode=%d encode_len=%d", ret, encode_len);
 	free(image_buffer);
 	return ret;
 }

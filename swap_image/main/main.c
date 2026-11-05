@@ -29,6 +29,7 @@
 #include "esp_vfs.h"
 #include "nvs_flash.h"
 #include "esp_spiffs.h"
+#include "driver/gpio.h"
 
 #include "esp_camera.h"
 #include "camera_pin.h"
@@ -375,8 +376,9 @@ void app_main(void)
 	// OpenCV info print
 	cv_print_info();
 
-	esp_err_t err = esp_camera_init(&camera_config);
-	if (err != ESP_OK) {
+	// Initialize camera
+	ret = esp_camera_init(&camera_config);
+	if (ret != ESP_OK) {
 		ESP_LOGE("CAM", "Camera Init Failed");
 		return;
 	}
